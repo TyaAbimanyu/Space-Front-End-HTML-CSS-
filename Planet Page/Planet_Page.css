@@ -1,0 +1,417 @@
+*{
+    text-decoration:none ;
+    margin: 0px;
+    padding: 0%;
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/realistic-galaxy-background_23-2148991322.jpg?t=st=1655737369~exp=1655737969~hmac=fb46171ebe175e054fc1cca9ebd7cfafc53ce9f0d11e8c6a608879c8d13330ab&w=900);
+    background-size: cover;
+}
+header{
+    background-color: #79018C;
+    color: #fff;
+    height: 90px;
+
+}
+
+.Judul{
+    font-size: 50px;
+    font-weight: 800px;
+    padding: 20px 40px 30px 40px;
+    float: left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#9A0680;
+}
+
+nav{
+    text-align: right;
+}
+.menu{
+    text-align: right;
+    float: right;
+    width: 100%;
+    display: flex;
+    line-height: 60px;
+    position: sticky;
+    position: webkit-sticky;
+    top: 100%;
+    background: #fff;
+    z-index: 10;
+    border-bottom: -10px solid  #7F8487;
+}
+
+.menu ul{
+    list-style-type: none;
+    text-align: right;
+    transform: translate(70%,40%);
+    float: right;
+    margin: 0;
+    padding: 2;
+    overflow: hidden;
+}
+.menu ul li{
+    float: left;
+}
+
+.menu ul li a{
+    font-size: 110%;
+    color:#160040 ;
+    font-weight:bold ;
+    text-align: right;
+    margin-left: 30px;
+    padding:10px 16px 10px 16px;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+
+.menu ul li a.tombol{
+    background:#79018C ;
+    border-radius:20px;
+    margin-top:20px;
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu ul li a.tombol:hover{
+    background: pink;
+    text-decoration: none;
+}
+
+
+a.tombol-pink{
+    background:#B958A5;
+    border-radius:20px;
+    margin-top:20px;
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tombol-pink:hover{
+    background: #79018C ;
+    text-decoration: none;
+}
+
+#Planet{
+    background-color: #06113C;
+}
+
+.deskripsi{
+    font-family:'Times New Roman', Times, serif ;
+    color: #fff;
+
+    margin: 8px 0px 0px 7%;
+    font-size: 35px;
+    font-weight: bold;
+}
+.deskripsi2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    margin-left: 15%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.judul{
+    font-family:'Times New Roman', Times, serif;
+    color: #fff;
+    margin: 15px 0px 25px 7%;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+img{
+    margin-left: 15%;
+}
+
+.premis{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 150;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 7%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.premis2{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 150;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 7%;
+    margin-bottom: 10px;
+}
+
+.premis3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 7%;
+}
+
+.Merkurius{
+    margin-left: 7%;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.mercury{
+    margin-top: 30px;
+}
+.Merkurius2{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 150;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+.Merkurius2 a{
+    color: #F43B86;
+}
+
+.Venus{
+    margin-left: 7%;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.venus{
+    margin-top: 30px;
+}
+.Venus2{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 150;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.Venus3{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 150;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.Venus2 a{
+    color: #F43B86;
+}
+
+.Bumi{
+    margin-left: 7%;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.bumi{
+    margin-top: 30px;
+}
+.Bumi2{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 150;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.Bumi3{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 150;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.Bumi2 a{
+    color: #F43B86;
+}
+
+.Mars{
+    margin-left: 7%;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.mars{
+    margin-top: 30px;
+}
+.Mars2{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 150;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.Mars3{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 150;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.Mars2 a{
+    color: #F43B86;
+}
+
+.Jupiter{
+    margin-left: 7%;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.jupiter{
+    margin-top: 30px;
+}
+.Jupiter2{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 150;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.Jupiter3{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 150;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.Jupiter2 a{
+    color: #F43B86;
+}
+
+.Saturn{
+    margin-left: 7%;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.saturn{
+    margin-top: 30px;
+}
+.Saturn2{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 150;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.Saturn2 a{
+    color: #F43B86;
+}
+
+.Uranus{
+    margin-left: 7%;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.uranus{
+    margin-top: 30px;
+}
+.Uranus2{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 150;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.Uranus3{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 150;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.Uranus2 a{
+    color: #F43B86;
+}
+
+.Neptun{
+    margin-left: 7%;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.neptun{
+    margin-top: 30px;
+}
+.Neptun2{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 150;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.Neptun2 a{
+    color: #F43B86;
+}
+footer{
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+    background-color: #2E0249;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 100%;
+}

@@ -1,0 +1,208 @@
+*{
+    text-decoration:none ;
+    margin: 0px;
+    padding: 0%;
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(Home_page_fix.jpg);
+    background-size: cover;
+}
+.header{
+    background-color: #79018C;
+    color: #fff;
+    height: 90px;
+
+}
+
+.Judul{
+    font-size: 50px;
+    font-weight: 800px;
+    padding: 20px 40px 20px 40px;
+    float: left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#9A0680;
+}
+
+nav{
+    text-align: right;
+}
+.menu{
+    text-align: right;
+    float: right;
+    width: 100%;
+    display: flex;
+    line-height: 60px;
+    position: sticky;
+    position: webkit-sticky;
+    top: 100%;
+    background: #fff;
+    z-index: 10;
+    border-bottom: -10px solid  #7F8487;
+}
+
+.menu ul{
+    list-style-type: none;
+    text-align: right;
+    transform: translate(70%,40%);
+    float: right;
+    margin: 0;
+    padding: 2;
+    overflow: hidden;
+}
+.menu ul li{
+    float: left;
+}
+
+.menu ul li a{
+    font-size: 110%;
+    color:#160040 ;
+    font-weight:bold ;
+    text-align: right;
+    margin-left: 30px;
+    padding:10px 16px 10px 16px;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+
+.menu ul li a.tombol{
+    background:#79018C ;
+    border-radius:20px;
+    margin-top:20px;
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu ul li a.tombol:hover{
+    background: pink;
+    text-decoration: none;
+}
+
+.home{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-size: cover;
+    background-image: url(Home_page_fix.jpg);
+
+}
+.kolom{
+   position: absolute;
+    text-align: center;
+    top: 130px;
+    right: 200px;
+
+}
+.deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #FAEDF0;
+    margin-left: 190px;
+
+
+}
+.deskripsi2{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #FAEDF0;
+    margin-left: 190px;
+}
+.kolom h2{
+    font-family: 'comic sans ms';
+    font-weight: 550;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #F43B86 ;
+    width: 100%;
+    line-height: 50px;
+    margin-top: 110px;
+    margin-left: 90px;
+
+}
+
+.lorem{
+    margin-top: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 150%;
+    margin-left: 230px;
+    margin-top: 80px;
+}
+
+.lorem3{
+    color: #F43B86;
+}
+.lorem2{
+    color:black;
+}
+.button{
+    transform: translate(11%,140%);
+}
+
+a.tombol{
+    background:#79018C ;
+    border-radius:20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tombol:hover{
+    background: pink;
+    text-decoration: none;
+}
+
+.kolom .penjelasan{
+    font-style:italic;
+    color: black;
+}
+a.tombol-pink{
+    background:#B958A5;
+    border-radius:20px;
+    margin-top:20px;
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tombol-pink:hover{
+    background: #79018C ;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+
+}
+
+.h3{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #79018C;
+    width: 100%;
+    line-height: 50px;
+    
+}
+.foot1{
+    text-align: center;
+    padding: 5px;
+    background-color: #2E0249;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 100%;
+    margin-top: 800px;
+}
